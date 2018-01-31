@@ -1,0 +1,31 @@
+
+$grey: #555555;
+$font-family: Helvetica, Arial, sans-serif; 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: #f2f2f2;
+    color: $grey;
+    font-family: $font-family;
+    font-size: 1.6rem;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+
+
+
+
+@import "./components/wrapper";
+@import "./components/title-bar";
+@import "./components/_item";
